@@ -5,8 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Witaj w świecie alkoholi </h1>
-
+<div style="background-color:lightblue">
+<h1 align="center">Witaj w świecie alkoholi </h1>
+</div>
 <!--
 Odpowiedznikiem scanera dla htmla  formularz i znacznik form <form>
 lebel odpowiednik puts
@@ -17,11 +18,12 @@ br odpowiednik println docelowo sie nie stosuje
 
 ---->
 <form action="/result">
-    <label>Podaj ilość alkoholu w litrach</label>
+    <div align="center" style="background-color:lightblue" >
+    <label  >Podaj ilość alkoholu w litrach</label>
     <input type="number" value="0.5" step="0.1"
            name="quantity">
     <br>
-    <label>Podaj wagę w kilogramach</label>
+    <label style=>Podaj wagę w kilogramach</label>
     <input type="number" value="70" step="1"
            name="weight">
     <br>
@@ -33,9 +35,10 @@ br odpowiednik println docelowo sie nie stosuje
         <option value="HOOCH">Bimber</option>
     </select>
     <br>
-   <input type="submit" value="Obicz alkohol" >
 
+   <input type="submit" value="Obicz alkohol" style="background-color:white" >
 
+</div>
 </form>
 </body>
 </html>
